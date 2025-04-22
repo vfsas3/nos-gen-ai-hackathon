@@ -39,13 +39,7 @@ All changes must be submitted **before**:
 
 You can submit your final output in two ways, although **Option 2 is seriously advised and prefered.**
 
-#### ✅ Option 1: Directly in GitHub
-1. Open your team's repository on GitHub
-2. Locate the `submission.txt` file
-3. Edit it with your final output
-4. Commit the changes directly
-
-#### ✅ Option 2: Local Git Workflow
+#### Local Git Workflow
 After you edited the submission.txt file and replace the contents with your final generated output:
 
 1. **Check your current branch:**
