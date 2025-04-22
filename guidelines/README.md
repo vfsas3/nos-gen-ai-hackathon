@@ -54,10 +54,10 @@ After you edited the submission.txt file and replace the contents with your fina
    git branch
    ```
 Confirm that you are not on main, but on your previously created branch
-(e.g., submission-final). If needed, switch with: 
+(e.g.,  my-feature-branchl). If needed, switch with: 
 ```yaml
 bash
-git checkout submission-final
+git checkout  my-feature-branch
 ```
 
 2. **Check the file status:**
@@ -79,7 +79,7 @@ git commit -m "Final submission -Team Name-"
 ```yaml
 bash
 
-git push origin my-branch
+git push origin  my-feature-branch
 ```
 
 5. **Open a Pull Request**
