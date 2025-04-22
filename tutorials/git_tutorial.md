@@ -35,20 +35,18 @@ To clone a GitHub repository (or your fork) using Google Colab, you can use the 
 
 ![My Feature](clone.png)
 
-3. **Open Your Terminal**:  
-   Launch your terminal or command prompt.
-4. **Navigate to Your Desired Directory**:  
+3. **Navigate to Your Desired Directory**:  
    Use the `cd` command to change to the directory where you want to clone your fork. For example:
    ```
-   cd path/to/your/directory
+   %cd path/to/your/directory
     ```
-5. **Clone Your Repository**:
+4. **Clone Your Repository**:
     ```
     !git clone https://github.com/nosportugal/nos-gen-ai-hackathon.git
 
     %cd repository-name
     ```
-6. **Now You Can Work with Your Files**:
+5. **Now You Can Work with Your Files**:
 
     After cloning, you can view, edit, and run any scripts or files in your repository.
 
@@ -59,7 +57,7 @@ To clone a GitHub repository (or your fork) using Google Colab, you can use the 
 Always create a new branch for your work to keep things organized.
 
 ```
-!git checkout -b my-feature-branch
+!git checkout -b my-branch
 ```
 
 ---
@@ -76,7 +74,6 @@ After making changes to your code:
     ```
     !git commit -m "Add feature: meaningful description"
     ```
-
 ---
 
 ## 🚀 5. Pushing to GitHub
