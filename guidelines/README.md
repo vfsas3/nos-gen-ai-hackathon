@@ -35,7 +35,7 @@ All changes must be submitted **before**:
 
 ---
 
-### 📌 How to Submit:
+### How to Submit:
 
 You can submit your final output in two ways, although **Option 2 is seriously advised and prefered.**
 
