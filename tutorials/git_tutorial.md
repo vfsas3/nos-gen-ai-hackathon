@@ -18,12 +18,14 @@ A **fork** is a personal copy of someone else's project. You can make changes in
 
 ---
 
-## 📥 2. Cloning Your Fork
+## 📥 2. Cloning Your Fork Using HTTPS in Google Colab
 
-To get started with your fork of the repository, you'll need to clone it to your local machine. Here’s how to do it using HTTPS:
+To clone a GitHub repository (or your fork) using Google Colab, you can use the "!" command to run shell commands directly in a code cell. Here’s how you can do it using HTTPS:
 
 🔗 Where to find the link:
-1. **Navigate to Your Fork**:  
+1. **Open Google Colab**:
+    Go to Google Colab and create a new notebook.
+2. **Navigate to Your Fork**:  
    Go to your GitHub account and find your fork of the repository. It will be listed under your username.
 2. **Get the Clone URL**:  
    - Click the green **Code** button located near the top right of the repository page.
@@ -42,10 +44,13 @@ To get started with your fork of the repository, you'll need to clone it to your
     ```
 5. **Clone Your Repository**:
     ```
-    git clone https://github.com/nosportugal/nos-gen-ai-hackathon.git
+    !git clone https://github.com/nosportugal/nos-gen-ai-hackathon.git
 
-    cd repository-name
+    %cd repository-name
     ```
+6. **Now You Can Work with Your Files**:
+
+After cloning, you can view, edit, and run any scripts or files in your repository.
 
 ---
 
