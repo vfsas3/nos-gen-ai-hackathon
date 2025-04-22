@@ -50,7 +50,7 @@ To clone a GitHub repository (or your fork) using Google Colab, you can use the 
     ```
 6. **Now You Can Work with Your Files**:
 
-After cloning, you can view, edit, and run any scripts or files in your repository.
+    After cloning, you can view, edit, and run any scripts or files in your repository.
 
 ---
 
@@ -59,7 +59,7 @@ After cloning, you can view, edit, and run any scripts or files in your reposito
 Always create a new branch for your work to keep things organized.
 
 ```
-git checkout -b my-feature-branch
+!git checkout -b my-feature-branch
 ```
 
 ---
@@ -70,11 +70,11 @@ After making changes to your code:
 
 1. Add your changes:
     ```
-    git add .
+    !git add .
     ```
 2. Commit them with a meaningful message:
     ```
-    git commit -m "Add feature: meaningful description"
+    !git commit -m "Add feature: meaningful description"
     ```
 
 ---
@@ -84,7 +84,7 @@ After making changes to your code:
 Push your branch to your fork on GitHub:
 
 ```
-git push origin my-feature-branch
+!git push origin my-feature-branch
 ```
 
 ---
