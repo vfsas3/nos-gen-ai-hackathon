@@ -31,7 +31,7 @@ This is the content that will be directly evaluated by the judges.
 ### ⏰ Deadline:
 All changes must be submitted **before**:
 
-🗓️ **[Insert deadline here, e.g., April 27, 2025 – 23:59 UTC]**
+🗓️ **dealine**
 
 ---
 
@@ -70,7 +70,7 @@ git status
 Confirm that submission.txt appears as "modified" or "new file" under "Changes not staged for commit".
 
 3. **Stage and commit your changes:**
-```ymal
+```yaml
 bash
 git add submission.txt
 git commit -m "Final submission -Team Name-"
@@ -83,4 +83,5 @@ git push origin my-branch
 ```
 
 5. **Open a Pull Request**
+
 Go to GitHub and open a Pull Request from your branch **submission-final → main.**
