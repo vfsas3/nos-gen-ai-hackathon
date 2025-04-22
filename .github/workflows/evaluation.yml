@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  compare:
+  evaluate:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,8 +31,15 @@ jobs:
       # Run the evaluation using the target and the attempted file (from PR)
       - name: Run evaluation script
         run: |
-          python evaluation.py target.txt submission/submission.txt
+          # Check if submission.txt exist before running the script
+          if [[ -f submission/submission.txt ]]; then
+            python evaluation.py target.txt submission/submission.txt
+          else
+            echo "submission/submission.txt file are missing. Skipping evaluation."
+            exit 0  # Exit without error
+          fi
 
       # Cleanup
       - name: Delete sensitive files
-        run: rm evaluation.py target.txt
+        run: |
+          rm -f evaluation.py target.txt
