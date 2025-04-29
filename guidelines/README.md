@@ -10,7 +10,7 @@ submission.txt
 ```
 
 This file is already located in the GitHub repository, you just have to add your output to the file. 
-**Do not rename or delete the file.**
+**Do not rename, move or delete the file.**
 
 ---
 
