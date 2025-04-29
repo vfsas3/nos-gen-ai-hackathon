@@ -84,6 +84,7 @@ After making changes to your code:
     !git config --global user.email "user@gmail.com"
     !git config --global user.name "YOUR NAME"
     ```
+    
     Then re-run the commit command:
     ```
     !git commit -m "Add feature: meaningful description"
