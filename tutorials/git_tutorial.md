@@ -27,7 +27,7 @@ To clone a GitHub repository (or your fork) using Google Colab, you can use the 
     Go to Google Colab and create a new notebook.
 2. **Navigate to Your Fork**:  
    Go to your GitHub account and find your fork of the repository. It will be listed under your username.
-2. **Get the Clone URL**:  
+3. **Get the Clone URL**:  
    - Click the green **Code** button located near the top right of the repository page.
    - Ensure that the **HTTPS** option is selected (you can toggle between **HTTPS** and **SSH**).
    - Click the copy icon next to the URL to copy it to your clipboard. It will look like this:  
@@ -35,18 +35,18 @@ To clone a GitHub repository (or your fork) using Google Colab, you can use the 
 
 ![My Feature](images/clone.png)
 
-3. **Navigate to Your Desired Directory**:  
+4. **Navigate to Your Desired Directory**:  
    Use the `cd` command to change to the directory where you want to clone your fork. For example:
    ```
    %cd path/to/your/directory
     ```
-4. **Clone Your Repository**:
+5. **Clone Your Repository**:
     ```
     !git clone https://github.com/nosportugal/nos-gen-ai-hackathon.git
 
     %cd repository-name
     ```
-5. **Now You Can Work with Your Files**:
+6. **Now You Can Work with Your Files**:
 
     After cloning, you can view, edit, and run any scripts or files in your repository.
 
@@ -74,12 +74,12 @@ After making changes to your code:
     ```
     !git remote -v
     ```
-2. Commit them with a meaningful message:
+3. Commit them with a meaningful message:
     ```
     !git commit -m "Add feature: meaningful description"
     ```
     You might see an error asking you to set your identity.
-3.  Set Git identity (only needed once per environment):
+4.  Set Git identity (only needed once per environment):
     ```
     !git config --global user.email "user@gmail.com"
     !git config --global user.name "YOUR NAME"
