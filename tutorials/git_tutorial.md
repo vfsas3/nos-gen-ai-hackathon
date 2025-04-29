@@ -44,7 +44,9 @@ To clone a GitHub repository (or your fork) using Google Colab, you can use the 
     ```
     !git clone https://github.com/nosportugal/nos-gen-ai-hackathon.git
 
-    %cd repository-name
+    %cd repository-name  # Move into your desired subdirectory
+
+    %cd ..  # Move up one level
     ```
 6. **Now You Can Work with Your Files**:
 
@@ -68,8 +70,14 @@ After making changes to your code:
 
 1. Add your changes:
     ```
-    !git add .
+    !git add . # stages **all** modified and new files in the current directory and its subdirectories.
     ```
+    If you only want to stage a specific file, you can do:
+    ```
+    !git add filename.py
+    ```
+    This is useful when you want to commit only certain changes, not everything. You can list as many files as you want, separated by spaces.
+
 2. Check you remotes
     ```
     !git remote -v
