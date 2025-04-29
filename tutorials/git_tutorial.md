@@ -14,7 +14,7 @@ A **fork** is a personal copy of someone else's project. You can make changes in
 2. Click the **Fork** button at the top-right.
 3. GitHub creates a copy of the repo under your account.
 
-![My Feature](fork.png)
+![My Feature](images/fork.png)
 
 ---
 
@@ -33,7 +33,7 @@ To clone a GitHub repository (or your fork) using Google Colab, you can use the 
    - Click the copy icon next to the URL to copy it to your clipboard. It will look like this:  
      `https://github.com/nosportugal/nos-gen-ai-hackathon.git`
 
-![My Feature](clone.png)
+![My Feature](images/clone.png)
 
 3. **Navigate to Your Desired Directory**:  
    Use the `cd` command to change to the directory where you want to clone your fork. For example:
@@ -70,18 +70,55 @@ After making changes to your code:
     ```
     !git add .
     ```
+2. Check you remotes
+    ```
+    !git remote -v
+    ```
 2. Commit them with a meaningful message:
     ```
     !git commit -m "Add feature: meaningful description"
     ```
+    You might see an error asking you to set your identity.
+3.  Set Git identity (only needed once per environment):
+    ```
+    !git config --global user.email "user@gmail.com"
+    !git config --global user.name "YOUR NAME"
+    ```
+    Then re-run the commit command:
+    ```
+    !git commit -m "Add feature: meaningful description"
+    ```
+
+---
+## 🔐 5. Creating a Classic GitHub Token (for HTTPS Authentication)
+
+Since GitHub no longer allows password authentication via HTTPS, you'll need a **classic personal access token**.
+
+### How to create a token:
+
+1. Go to: [https://github.com/settings/tokens](https://github.com/settings/tokens)
+2. Click **"Generate new token (classic)"**
+3. Add a note like `"Colab Git Access"`
+4. Set an expiration date (optional but recommended)
+5. Select scopes:
+   - `repo` (Full control of private repositories)
+6. Click **"Generate token"**
+7. **Copy and save the token** – you won’t see it again!
+
 ---
 
 ## 🚀 5. Pushing to GitHub
 
-Push your branch to your fork on GitHub:
+After you’ve created your personal access token, set the correct remote URL using your GitHub username and your token.
+
+1. Update the remote URL:
 
 ```
-!git push origin my-feature-branch
+!git remote set-url origin https://<user-id>:<token>@github.com/<user-id>/<nome-do-repo>.git
+```
+2. Push your branch:
+```
+!git push -u origin my-branch
 ```
 
 ---
