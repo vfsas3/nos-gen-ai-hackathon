@@ -26,20 +26,11 @@ This is the content that will be directly evaluated by the judges.
 - Team members
 - Any explanation or extra formatting
 
-##  Submission Rules
-
-### ⏰ Deadline:
-All changes must be submitted **before**:
-
-**dealine**
-
+##  **Submission Rules**
 ---
 
 ### How to Submit:
 
-You can submit your final output in two ways, although **Option 2 is seriously advised and prefered.**
-
-#### Local Git Workflow
 After you edited the submission.txt file and replace the contents with your final generated output:
 
 1. **Check your current branch:**
