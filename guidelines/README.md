@@ -79,3 +79,14 @@ git push origin  my-feature-branch
 5. **Open a Pull Request**
 
 Go to GitHub and open a Pull Request from your branch **submission-final → main.**
+### How we will evaluate your submission file
+
+After you submit your file with the desired prompt, we will evaluate it based on the following criteria:
+- 🔴**Similarity:** `91.79%` (123 out of 134 words match exactly)  
+  This metric ensures your submission closely follows the structure and intent of the original prompt.
+
+- 🔴**Accuracy:** `55.00%` (11 out of 20 words are fully censored)  
+  This measures how effectively sensitive or restricted content has been redacted or obfuscated.
+
+
+[STILL IN PROGRESS..]
