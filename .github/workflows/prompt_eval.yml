@@ -1,13 +1,9 @@
 name: Prompt Evaluation
 
-#on:
-  #pull_request:
-    #branches:
-      #- main
 on:
-    push:
-        paths:
-        - 'submission/prompt.txt'
+  pull_request:
+    branches:
+      - main
 
 jobs:
   evaluate:
