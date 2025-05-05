@@ -6,7 +6,7 @@
 
 Participants must edit the provided file named:
 ```yaml
-submission.txt
+submission/submission.txt
 ```
 
 This file is already located in the GitHub repository, you just have to add your output to the file. 
