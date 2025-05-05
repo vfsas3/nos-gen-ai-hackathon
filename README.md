@@ -4,7 +4,10 @@ Welcome to the official repository for the NOS Gen-AI Hackathon, part of the SCA
 
 ## 0. Problem Statement
 
-#TODO: Adiconar regras hackathon - Joana
+#TODO: Adicionar regras hackathon - Joana
+#TODO: explicar que os estudantes tem que colocar o texto final no submission.txt e a prompt final no prompt.txt
+#TODO: Cada palavra q tem de ser anonimizada tem de ser substituida por um *
+#TODO: Descrever que palavras devem ser anonimizadas
 
 ## 1. Prerequisites
 Before participating in the hackathon, please ensure that you meet the following prerequisites. Having these accounts and access will help streamline your development process and facilitate the use of necessary tools and APIs.

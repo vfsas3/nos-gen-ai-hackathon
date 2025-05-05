@@ -1,8 +1,5 @@
 # 📢 Hackathon Submission Guidelines
-
----
-
-## **Expected Format**
+## **Submission Rules**
 
 Participants must edit the provided file named:
 ```yaml
@@ -11,8 +8,6 @@ submission/submission.txt
 
 This file is already located in the GitHub repository, you just have to add your output to the file. 
 **Do not rename, move or delete the file.**
-
----
 
 ## **What to Include in `submission.txt`**
 
@@ -26,49 +21,40 @@ This is the content that will be directly evaluated by the judges.
 - Team members
 - Any explanation or extra formatting
 
-##  **Submission Rules**
----
+#TODO: FAZER PARA A PROMPT
 
-### How to Submit:
+##  **How to Submit**
 
 After you edited the submission.txt file and replace the contents with your final generated output:
 
 1. **Check your current branch:**
    ```yaml
-   bash
    git branch
    ```
-Confirm that you are not on main, but on your previously created branch
-(e.g.,  my-feature-branch). If needed, switch with: 
-```yaml
-bash
-git checkout  my-feature-branch
-```
-
+   Confirm that you are not on main, but on your previously created branch
+   (e.g.,  my-feature-branch). If needed, switch with: 
+      ```yaml
+      git checkout  my-feature-branch
+      ```
 2. **Check the file status:**
-
-```yaml
-bash
-
-git status
-```
-Confirm that submission.txt appears as "modified" or "new file" under "Changes not staged for commit".
+   ```yaml
+   git status
+   ```
+   Confirm that submission.txt appears as "modified" or "new file" under "Changes not staged for commit".
 
 3. **Stage and commit your changes:**
-```yaml
-bash
-git add submission/submission.txt
-git commit -m "Final submission -Team Name-"
-```
+   ```yaml
+   git add submission/submission.txt
+   git commit -m "Final submission -Team Name-"
+   ```
 4. **Push your branch to GitHub:**
-```yaml
-bash
-
-git push origin  my-feature-branch
-```
+   ```yaml
+   git push origin  my-feature-branch
+   ```
 
 5. **Open a Pull Request**
 
-Go to GitHub and open a Pull Request from your branch **submission-final → main.**
+   Go to GitHub and open a Pull Request from your branch **submission-final → main.**
 
-_After you submit your file with the desired prompt, we will evaluate it based on predefined criteria._
+   _After you submit your file with the desired prompt, we will evaluate it based on predefined criteria._
+
