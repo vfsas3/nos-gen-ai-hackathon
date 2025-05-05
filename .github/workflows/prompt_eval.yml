@@ -32,6 +32,8 @@ jobs:
 
       # Run the prompt evaluation script
       - name: Run prompt evaluation script
+        env:
+            PROMPT_EVAL_API_KEY: ${{ secrets.PROMPT_EVAL_API_KEY }}
         run: |
           if [[ -f submission/prompt.txt ]]; then
             python prompt_eval.py 
