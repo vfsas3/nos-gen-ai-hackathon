@@ -57,7 +57,7 @@ Confirm that submission.txt appears as "modified" or "new file" under "Changes n
 3. **Stage and commit your changes:**
 ```yaml
 bash
-git add submission.txt
+git add submission/submission.txt
 git commit -m "Final submission -Team Name-"
 ```
 4. **Push your branch to GitHub:**
