@@ -1,3 +1,0 @@
-Censor the following sentence by replacing any inappropriate or offensive word with asterisks. Keep all other words unchanged.
-
-Sentence: "You are such a stupid idiot!"
