@@ -22,6 +22,8 @@ You'll need an active Google account to access Google AI tools at [Create a Goog
 
 ### 1.3. Set Up Your Google API Key
 
+#TODO: ALTERAR ISTO
+
 To generate your API key:
 
 a. Go to [Google AI Studio](https://aistudio.google.com/) and log in with your Google account.  
