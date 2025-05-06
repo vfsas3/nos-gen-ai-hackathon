@@ -52,7 +52,7 @@ git checkout  my-feature-branch
 ```yaml
 git status
 ```
-Confirm that **submission.txt** and **prompt.txt** appears as "modified" or "new file" under "Changes not staged for commit".
+Confirm that **submission.txt** and **prompt.txt** appear as "modified" or "new file" under "Changes not staged for commit".
 
 **3. Stage and commit your changes:**
 
