@@ -27,7 +27,7 @@ A avaliação do projeto será baseada nos seguintes critérios:
 
 **1.1 Implementação Técnica (40%)**
 
-* **Precisão (10%):** Taxa de acerto na deteção e categorização.
+* **Precisão (10%):** Taxa de acerto na deteção.
 * **Prompt (10%):** Qualidade da prompt e da resposta.
 * **Qualidade da Anonimização (5%):** Preservação do contexto após remoção de informações sensíveis.
 * **Explicabilidade (5%):** Clareza e rigor técnico do relatório.
