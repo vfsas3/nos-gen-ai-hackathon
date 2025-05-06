@@ -4,13 +4,13 @@ Welcome to the official repository for the NOS Gen-AI Hackathon, part of the SCA
 
 ## 0. Problem Statement
 
-#TODO: Adicionar regras hackathon - Joana
+#TODO: Adicionar regras hackathon em pt - Andreia
 #TODO: explicar que os estudantes tem que colocar o texto final no submission.txt e a prompt final no prompt.txt
 #TODO: Cada palavra q tem de ser anonimizada tem de ser substituida por um *
 #TODO: Descrever que palavras devem ser anonimizadas
 
 ## 1. Prerequisites
-Before participating in the hackathon, please ensure that you meet the following prerequisites. Having these accounts and access will help streamline your development process and facilitate the use of necessary tools and APIs.
+Before participating in the hackathon, please ensure that you meet the following prerequisites. Having the needed accounts and accesses will help streamline your development process and facilitate the use of necessary tools and APIs.
 
 ### 1.1. GitHub Account
 
@@ -31,8 +31,6 @@ b. Click on the **“Get API Key”** button.
 c. Select **“Create API key”** (or **“Criar chave de API”** if in Portuguese).  
 d. A window will open where you’ll create an API key under a new project.  
 e. **Important:** Save the generated API key in a safe place — you'll need it later!
-
-Get ready to innovate, build, and have fun — see you at the hackathon! 💡🔥
 
 ## 2. Setup
 In this section, we'll walk you through the essential setup steps needed to get started with your project. Follow these instructions carefully!
