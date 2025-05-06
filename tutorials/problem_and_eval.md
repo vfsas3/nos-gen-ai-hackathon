@@ -11,11 +11,6 @@
 **2. Saída:**
 
 * **Documento anonimizado:** Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * *)
-* **Tabela estruturada:** Indicando:
-    * **Localização no texto:** (ex: linha 5, parágrafo 2).
-    * **Tipo de dado sensível:** (ex: nomes, endereço, código postal, etc).
-    * **Justificação baseada no RGPD:**  (Referência específica ao artigo do RGPD que justifica a anonimização).
-
 
 **3. Requisitos Técnicos**
 
