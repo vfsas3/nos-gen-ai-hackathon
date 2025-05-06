@@ -25,7 +25,7 @@ This is the content that will be directly evaluated by the judges.
 - Team members
 - Any explanation or extra formatting
 
-**In addition to submission.txt, you must also include a file named:**
+**In addition to submission.txt, you must also edit a file named:**
 
 ```yaml
 submission/prompt.txt
