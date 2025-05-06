@@ -2,12 +2,9 @@
 
 Welcome to the official repository for the NOS Gen-AI Hackathon, part of the SCAILE initiative! In this repository, you will find essential resources including the official hackathon rules, code snippets, and examples designed to facilitate your development process. Additionally, we provide a baseline structure to guide you in addressing the proposed challenge effectively.
 
-## 0. Problem Statement
+## 0. Problem Statement and Evaluation Criteria
 
-#TODO: Adicionar regras hackathon em pt - Andreia
-#TODO: explicar que os estudantes tem que colocar o texto final no submission.txt e a prompt final no prompt.txt
-#TODO: Cada palavra q tem de ser anonimizada tem de ser substituida por um *
-#TODO: Descrever que palavras devem ser anonimizadas
+For a complete description of the problem statement and the detailed evaluation criteria, refer to this [document](nos-gen-ai-hackathon/tutorials/problem_and_eval.md).
 
 ## 1. Prerequisites
 Before participating in the hackathon, please ensure that you meet the following prerequisites. Having the needed accounts and accesses will help streamline your development process and facilitate the use of necessary tools and APIs.
@@ -21,8 +18,6 @@ Make sure you have an active GitHub account at [Create a GitHub Account](https:/
 You'll need an active Google account to access Google AI tools at [Create a Google Account](https://accounts.google.com/signup)
 
 ### 1.3. Set Up Your Google API Key
-
-#TODO: ALTERAR ISTO
 
 To generate your API key:
 
@@ -43,9 +38,7 @@ If you're new to Git, it’s important to understand how to manage your code eff
 
 This section contains helpful resources and tools to support your work.
 
-## 3.1. Getting Started with Gemini API
-
-This guide provides a brief overview of how to start using Google's Gemini 2.0 API for generating content.
+### 3.1. Getting Started with Gemini API
 
 If you're looking for **detailed steps**, including how to obtain an API key and example usage, please refer to the full tutorial at [Gemini 2.0 Tutorial](tutorials/gemini_tutorial.md)
 
