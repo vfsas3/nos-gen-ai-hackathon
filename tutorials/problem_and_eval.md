@@ -8,7 +8,7 @@
 
 **2. Saída:**
 
-* **Documento anonimizado:** Documento com dados sensíveis substituídos por `*`.
+* **Documento anonimizado:** Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada.
 * **Tabela estruturada:** Indicando:
     * **Localização no texto:** (ex: linha 5, parágrafo 2).
     * **Tipo de dado sensível:** (ex: nomes, endereço, código postal, etc).
