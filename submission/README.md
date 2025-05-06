@@ -35,6 +35,13 @@ submission/prompt.txt
 
 This file should contain **the exact prompt** you used to generate the output in **submission.txt**.
 
+## **Include Your Development Code**
+
+Please also include the **code or notebook** you used to develop your solution (e.g., .py, .ipynb files).
+This helps us better understand your approach and will also be included in evaluation.
+
+*Make sure these files are committed to your branch before submitting your pull request.*
+
 ##  **🚀 How to Submit**
 
 After you have edited both submission.txt and prompt.txt, and replaced their contents with your final generated output and the exact prompt used to produce it:
@@ -52,13 +59,13 @@ git checkout  my-feature-branch
 ```yaml
 git status
 ```
-Confirm that **submission.txt** and **prompt.txt** appear as "modified" or "new file" under "Changes not staged for commit".
+Confirm that **submission.txt** and **prompt.txt** and your **code/notebook files** appear as "modified" or "new file" under "Changes not staged for commit".
 
 **3. Stage and commit your changes:**
 
 Add your current changes:
 ```yaml
-git add submission/submission.txt submission/prompt.txt 
+git add submission/submission.txt submission/prompt.txt  submission/code_or_notebook
 ```
 
 You can also commit all of your current changes by running the command:
@@ -83,5 +90,5 @@ git push origin  my-feature-branch
 
 Go to GitHub and open a Pull Request from your branch **submission-final → main.**
 
-_Once you’ve submitted both the prompt and the generated output, our team will evaluate your submission according to predefined criteria._
+_Once you’ve submitted the prompt, the generated output, and the development code or notebook, our team will evaluate your submission according to predefined criteria._
 
