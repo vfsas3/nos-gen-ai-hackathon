@@ -1,5 +1,7 @@
 # Enunciado
 
+*Note: This document is intentionally written in Portuguese as it is targeted at a Portuguese-speaking audience.*
+
 **Objetivo:** Desenvolver um sistema baseado em Large Language Models (LLMs) que identifique e remova automaticamente dados sensíveis ou pessoais de documentos, gerando um relatório explicativo.
 
 ## Diretrizes
