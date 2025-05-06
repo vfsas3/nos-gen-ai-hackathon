@@ -30,7 +30,7 @@ A avaliação do projeto será baseada nos seguintes critérios:
 * **Precisão (10%):** Taxa de acerto na deteção.
 * **Prompt (10%):** Qualidade da prompt e da resposta.
 * **Qualidade da Anonimização (5%):** Preservação do contexto após remoção de informações sensíveis.
-* **Explicabilidade (5%):** Clareza e rigor técnico do relatório.
+* **Explicabilidade (5%):** Clareza e rigor técnico da solução.
 * **Eficiência (5%):** Uso otimizado de prompts e técnicas de engenharia.
 * **GitHub (5%):** Qualidade do código (estrutura, uso de branches, merges e commits no Git).
 
@@ -71,8 +71,3 @@ A avaliação do projeto será baseada nos seguintes critérios:
 * **1º Lugar:** Curso certificado da Google + estágio de verão na NOS.
 * **2º Lugar:** Curso certificado da Google.
 * **3º Lugar:** Auriculares de alta qualidade.
-
-
-## Dicas Adicionais
-
-* Utilize ferramentas como o GitHub para rastrear contribuições individuais.
