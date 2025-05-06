@@ -4,7 +4,7 @@ Welcome to the official repository for the NOS Gen-AI Hackathon, part of the SCA
 
 ## 0. Problem Statement and Evaluation Criteria
 
-For a complete description of the problem statement and the detailed evaluation criteria, got this [document](nos-gen-ai-hackathon/tutorials/problem_and_eval.md).
+For a complete description of the problem statement and the detailed evaluation criteria, refer to this [document](nos-gen-ai-hackathon/tutorials/problem_and_eval.md).
 
 ## 1. Prerequisites
 Before participating in the hackathon, please ensure that you meet the following prerequisites. Having the needed accounts and accesses will help streamline your development process and facilitate the use of necessary tools and APIs.
