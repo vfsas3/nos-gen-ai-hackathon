@@ -19,17 +19,24 @@ O documento recebido é um registo clínico que pode conter:
 - Dados biométricos
 - Assinatura Digital do médico
 - Informações sobre o seguro de saúde
+- Informações da consulta
 
 [RESTRICTIONS]
 - NÃO deves alterar a estrutura ou ordem do conteúdo.
 - NÃO cries conteúdo adicional.
 - Remove todas as linhas vazias.
+- NÃO retires a altura e o pessoa
+- NÃO retires informações médicas
+- Devolve apenas o relatório anonimizado
+- As informações do médico têm de ser anonimizadas 
+- NÃO deixes informações que permitam identificar a consulta (Data, Referência)
+
 
 [Output Format]
 1. Devolve o texto anonimizado com os dados sensíveis substituídos por um asterisco "*" por palavra.
-   - Exemplo: “Ana Correia nasceu em Lisboa.” → “* * nasceu em Lisboa.”
+   - Exemplo: “Ana Correia nasceu em Lisboa.” → “* * nasceu no Centro.”
 
-2. Após o texto, apresenta um relatório com o mesmo formato do original.
+2. Apresenta um relatório com o mesmo formato do original.
 
 [Examples]
 ### input
@@ -38,7 +45,9 @@ Data de Nascimento: 12/03/1978
 Filhos: 2 (João e Ana)
 Seguro de Saúde: Plano Premium Saúde Total
 Morada: Sacavém, Lisboa
-Profissão: Professora universitária
+Profissão: Enfermeira
+Estado Civil: União de Fato
+Religião: Muçulmana
 
 ### output
 Nome: *
@@ -46,7 +55,11 @@ Data de Nascimento: 45-59 anos
 Filhos: Sim
 Seguro de Saúde: Sim
 Morada: Centro
-Profissão: Educação
+Profissão: Área de saúde
+Estado Civil: *
+Religião: *
 
 [Warnings]
 A quebra da estrutura ou omissão de dados sensíveis implica falha na anonimização.
+O contexto tem de ser mantido.
+As informações têm de ser anonimizadas em todas as menções.
