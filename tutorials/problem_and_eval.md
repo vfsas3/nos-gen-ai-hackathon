@@ -13,7 +13,7 @@
 
 * **Documento anonimizado:** 
    * Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * *)
-   * Deve de manter a formação original do documento, porém sem linhas vazias. Como exemplo:
+   * Deve manter a formatação original do documento, mas sem linhas vazias. Como exemplo:
    ````text
     Relatório de Admissão - Centro Médico Lisboa
     Data: 15 de abril de 2025
