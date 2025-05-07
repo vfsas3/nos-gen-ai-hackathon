@@ -16,6 +16,6 @@ Welcome to the official attempt of group #8 at the NOS Gen-AI Hackathon. In this
  - Converts the text output back to PDF format.
 
 
-## RUN THE main.ipynb FILE.
+## RUN THE main.ipynb FILE FROM THE MAIN BRANCH.
 
 ![EL GATO](tutorials/images/cat.png)
