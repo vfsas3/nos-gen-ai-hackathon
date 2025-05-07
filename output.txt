@@ -6,13 +6,9 @@ Referencia *
 Informacoes do Paciente
 
 Nome *
-
-Faixa etária 45-59 anos
-
-Sexo *
-
+Data de Nascimento *
+Sexo Feminino
 NIF *
-
 Cartao de Cidadao *
 Morada Centro
 Telefone *
