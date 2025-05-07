@@ -14,3 +14,6 @@ Welcome to the official attempt of group #8 at the NOS Gen-AI Hackathon. In this
 
 ## 3. Text to PDF
  - Converts the text output back to PDF format.
+
+
+## RUN THE main.py FILE.
