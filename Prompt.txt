@@ -29,7 +29,7 @@ O documento recebido é um registo clínico que pode conter:
 - NÃO retires informações médicas
 - Devolve apenas o relatório anonimizado
 - As informações do médico têm de ser anonimizadas 
-- NÃO deixes informações que permitam identificar a consulta
+- NÃO deixes informações que permitam identificar a consulta (Data, Referência)
 
 
 [Output Format]
