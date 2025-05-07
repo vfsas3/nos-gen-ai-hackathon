@@ -11,3 +11,6 @@ Welcome to the official attempt of group #8 at the NOS Gen-AI Hackathon. In this
  - Our core functionality relies on the Gemma LLM to analyze the extracted text and the user provided prompt.
  - It generates the most relevant and accurate response.
  - The system detects and removes personal and sensitive data sush as names, emails, phone numbers and any other identifiable data.
+
+## 3. Text to PDF
+ - Converts the text output back to PDF format.
