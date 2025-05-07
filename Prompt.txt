@@ -24,10 +24,13 @@ O documento recebido é um registo clínico que pode conter:
 - NÃO deves alterar a estrutura ou ordem do conteúdo.
 - NÃO cries conteúdo adicional.
 - Remove todas as linhas vazias.
+- NÃO retires a altura e o pessoa
+- NÃO retires informações médicas
+- Devolve apenas o relatório anonimizado
 
 [Output Format]
 1. Devolve o texto anonimizado com os dados sensíveis substituídos por um asterisco "*" por palavra.
-   - Exemplo: “Ana Correia nasceu em Lisboa.” → “* * nasceu em Lisboa.”
+   - Exemplo: “Ana Correia nasceu em Lisboa.” → “* * nasceu no Centro.”
 
 2. Após o texto, apresenta um relatório com o mesmo formato do original.
 
@@ -50,3 +53,4 @@ Profissão: Educação
 
 [Warnings]
 A quebra da estrutura ou omissão de dados sensíveis implica falha na anonimização.
+O contexto tem de ser mantido.
