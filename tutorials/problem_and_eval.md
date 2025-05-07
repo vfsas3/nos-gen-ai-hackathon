@@ -12,7 +12,14 @@
 **2. Saída:**
 
 * **Documento anonimizado:** 
-   * Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * *)
+   * Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * * ; email@email.pt -> *)
+   * Deve de manter a formação original do documento, porém sem linhas vazias. Como exemplo:
+   ````text
+    Relatório de Admissão - Centro Médico Lisboa
+    Data: 15 de abril de 2025
+    Referência: ADM-2025-04-15-089
+    Informações do Paciente:
+    ````
 
 **3. Requisitos Técnicos**
 
