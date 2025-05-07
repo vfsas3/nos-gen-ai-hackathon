@@ -6,11 +6,20 @@
 
 ## Diretrizes
 
-**1. Entrada:** Documento de texto contendo informações fictícias. Este documento será igual para todas as equipas.  *(O documento será fornecido separadamente)*
+**1. Entrada:** 
+   * Documento de texto contendo informações fictícias. Este documento será igual para todas as equipas. Encontra-se presente em `raw_data/document_to_anonymize.pdf`.
 
 **2. Saída:**
 
-* **Documento anonimizado:** Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * *)
+* **Documento anonimizado:** 
+   * Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * *)
+   * Deve manter a formatação original do documento, mas sem linhas vazias. Como exemplo:
+   ````text
+    Relatório de Admissão - Centro Médico Lisboa
+    Data: 15 de abril de 2025
+    Referência: ADM-2025-04-15-089
+    Informações do Paciente:
+    ````
 
 **3. Requisitos Técnicos**
 
