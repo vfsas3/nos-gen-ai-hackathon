@@ -6,11 +6,13 @@
 
 ## Diretrizes
 
-**1. Entrada:** Documento de texto contendo informações fictícias. Este documento será igual para todas as equipas.  *(O documento será fornecido separadamente)*
+**1. Entrada:** 
+   * Documento de texto contendo informações fictícias. Este documento será igual para todas as equipas. Encontra-se presente em `raw_data/document_to_anonymize.pdf`.
 
 **2. Saída:**
 
-* **Documento anonimizado:** Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * *)
+* **Documento anonimizado:** 
+   * Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * *)
 
 **3. Requisitos Técnicos**
 
