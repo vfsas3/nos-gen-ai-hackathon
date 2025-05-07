@@ -43,7 +43,8 @@ O documento recebido é um registo clínico que pode conter:
 Data 7 de maio de 2025
 Referencia KJEDNFJW
 
-Nome: Maria C. O. Santos
+Nome: Mário C. O. Santos
+Sexo: Masculino
 Data de Nascimento: 12/03/1978
 Filhos: 2 (João e Ana)
 Seguro de Saúde: Plano Premium Saúde Total
@@ -57,6 +58,7 @@ Data *
 Referencia *
 
 Nome: *
+Sexo: Masculino
 Faixa etária: 45-59 anos
 Filhos: Sim
 Seguro de Saúde: Sim
