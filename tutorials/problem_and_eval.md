@@ -12,7 +12,7 @@
 **2. Saída:**
 
 * **Documento anonimizado:** 
-   * Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * * ; email@email.pt -> *)
+   * Documento com dados sensíveis substituídos por `*` por cada palavra a ser anonimizada (ex: Ana Correira -> * *)
    * Deve de manter a formação original do documento, porém sem linhas vazias. Como exemplo:
    ````text
     Relatório de Admissão - Centro Médico Lisboa
