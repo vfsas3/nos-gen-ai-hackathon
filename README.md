@@ -16,4 +16,4 @@ Welcome to the official attempt of group #8 at the NOS Gen-AI Hackathon. In this
  - Converts the text output back to PDF format.
 
 
-## RUN THE main.py FILE.
+## RUN THE main.ipynb FILE.
