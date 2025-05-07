@@ -40,6 +40,9 @@ O documento recebido é um registo clínico que pode conter:
 
 [Examples]
 ### input
+Data 7 de maio de 2025
+Referencia KJEDNFJW
+
 Nome: Maria C. O. Santos
 Data de Nascimento: 12/03/1978
 Filhos: 2 (João e Ana)
@@ -50,8 +53,11 @@ Estado Civil: União de Fato
 Religião: Muçulmana
 
 ### output
+Data *
+Referencia *
+
 Nome: *
-Data de Nascimento: 45-59 anos
+Faixa etária: 45-59 anos
 Filhos: Sim
 Seguro de Saúde: Sim
 Morada: Centro
