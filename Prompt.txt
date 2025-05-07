@@ -27,6 +27,7 @@ O documento recebido é um registo clínico que pode conter:
 - NÃO retires a altura e o pessoa
 - NÃO retires informações médicas
 - Devolve apenas o relatório anonimizado
+- As informações do médico e da consulta também têm de ser anonimizadas
 
 [Output Format]
 1. Devolve o texto anonimizado com os dados sensíveis substituídos por um asterisco "*" por palavra.
@@ -41,7 +42,7 @@ Data de Nascimento: 12/03/1978
 Filhos: 2 (João e Ana)
 Seguro de Saúde: Plano Premium Saúde Total
 Morada: Sacavém, Lisboa
-Profissão: Professora universitária
+Profissão: Enfermeira
 
 ### output
 Nome: *
@@ -49,8 +50,9 @@ Data de Nascimento: 45-59 anos
 Filhos: Sim
 Seguro de Saúde: Sim
 Morada: Centro
-Profissão: Educação
+Profissão: Área de saúde
 
 [Warnings]
 A quebra da estrutura ou omissão de dados sensíveis implica falha na anonimização.
 O contexto tem de ser mantido.
+As informações têm de ser anonimizadas em todas as menções.
