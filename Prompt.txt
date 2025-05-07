@@ -32,7 +32,7 @@ O documento recebido é um registo clínico que pode conter:
 1. Devolve o texto anonimizado com os dados sensíveis substituídos por um asterisco "*" por palavra.
    - Exemplo: “Ana Correia nasceu em Lisboa.” → “* * nasceu no Centro.”
 
-2. Após o texto, apresenta um relatório com o mesmo formato do original.
+2. Apresenta um relatório com o mesmo formato do original.
 
 [Examples]
 ### input
