@@ -17,3 +17,5 @@ Welcome to the official attempt of group #8 at the NOS Gen-AI Hackathon. In this
 
 
 ## RUN THE main.ipynb FILE.
+
+![EL GATO](tutorials/images/cat.png)
