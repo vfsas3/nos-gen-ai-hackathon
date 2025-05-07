@@ -6,6 +6,8 @@ Welcome to the official repository for the NOS Gen-AI Hackathon, part of the SCA
 
 For a complete description of the problem statement and the detailed evaluation criteria, refer to this [document](tutorials/problem_and_eval.md).
 
+The document to be anonymized is located at [`raw_data/document_to_anonymize.pdf`](raw_data/document_to_anonymize.pdf).
+
 ## 1. Prerequisites
 Before participating in the hackathon, please ensure that you meet the following prerequisites. Having the needed accounts and accesses will help streamline your development process and facilitate the use of necessary tools and APIs.
 
